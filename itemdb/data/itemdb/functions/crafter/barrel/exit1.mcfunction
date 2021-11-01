@@ -1,0 +1,11 @@
+data modify storage itemdb temp set from block ~ ~ ~ Items
+data remove storage itemdb temp[{tag:{id_null:1b}}]
+data remove block ~ ~ ~ Items[{Slot:1b}]
+data remove block ~ ~ ~ Items[{Slot:2b}]
+data remove block ~ ~ ~ Items[{Slot:3b}]
+data remove block ~ ~ ~ Items[{Slot:10b}]
+data remove block ~ ~ ~ Items[{Slot:11b}]
+data remove block ~ ~ ~ Items[{Slot:12b}]
+data remove block ~ ~ ~ Items[{Slot:19b}]
+data remove block ~ ~ ~ Items[{Slot:20b}]
+data remove block ~ ~ ~ Items[{Slot:21b}]

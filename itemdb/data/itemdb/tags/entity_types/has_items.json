@@ -1,0 +1,8 @@
+{
+    "replace": false,
+  "values": [
+    "#itemdb:horses",
+    "minecraft:villager",
+    "minecraft:item"
+  ]
+}

@@ -1,0 +1,33 @@
+[
+  {
+    "function": "minecraft:set_enchantments",
+    "enchantments": {
+      "minecraft:binding_curse": -1
+    },
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "head": {
+                "nbt": "{was_cursed:1b}"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{was_cursed:0b}"
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{EnderItems:[]}"
+  }
+]

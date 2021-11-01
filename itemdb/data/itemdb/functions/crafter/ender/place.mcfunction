@@ -1,0 +1,3 @@
+setblock ~ ~ ~ ender_chest{CustomName:'{"text":"Custom Crafter"}'}
+execute align xyz unless entity @e[tag=itemdb,tag=crafter,tag=ender,dx=0] run summon minecraft:glow_item_frame ~0.5 ~0.5 ~0.5 {Facing:1b,Invulnerable:1b,Invisible:1b,Fixed:1b,Tags:["itemdb","frame","ender"],Item:{id:"minecraft:black_stained_glass_pane",Count:1b,tag:{CustomModelData:1}}}
+execute align xyz unless entity @e[tag=itemdb,tag=crafter,tag=ender,dx=0] run summon marker ~0.5 ~0.5 ~0.5 {Tags:["itemdb","crafter","ender"]}

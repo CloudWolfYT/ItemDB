@@ -1,0 +1,9 @@
+
+execute if score in itemdb matches 952..952 run data modify storage itemdb:recipes list[952] set from storage itemdb in
+execute if score in itemdb matches 953..953 run data modify storage itemdb:recipes list[953] set from storage itemdb in
+execute if score in itemdb matches 954..954 run data modify storage itemdb:recipes list[954] set from storage itemdb in
+execute if score in itemdb matches 955..955 run data modify storage itemdb:recipes list[955] set from storage itemdb in
+execute if score in itemdb matches 956..956 run data modify storage itemdb:recipes list[956] set from storage itemdb in
+execute if score in itemdb matches 957..957 run data modify storage itemdb:recipes list[957] set from storage itemdb in
+execute if score in itemdb matches 958..958 run data modify storage itemdb:recipes list[958] set from storage itemdb in
+execute if score in itemdb matches 959..959 run data modify storage itemdb:recipes list[959] set from storage itemdb in

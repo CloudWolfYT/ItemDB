@@ -1,0 +1,9 @@
+execute if score in1 itemdb matches 1 run item modify block ~ ~ ~ container.1 itemdb:set_count
+execute if score in1 itemdb matches 2 run item modify block ~ ~ ~ container.2 itemdb:set_count
+execute if score in1 itemdb matches 3 run item modify block ~ ~ ~ container.3 itemdb:set_count
+execute if score in1 itemdb matches 4 run item modify block ~ ~ ~ container.10 itemdb:set_count
+execute if score in1 itemdb matches 5 run item modify block ~ ~ ~ container.11 itemdb:set_count
+execute if score in1 itemdb matches 6 run item modify block ~ ~ ~ container.12 itemdb:set_count
+execute if score in1 itemdb matches 7 run item modify block ~ ~ ~ container.19 itemdb:set_count
+execute if score in1 itemdb matches 8 run item modify block ~ ~ ~ container.20 itemdb:set_count
+execute if score in1 itemdb matches 9 run item modify block ~ ~ ~ container.21 itemdb:set_count

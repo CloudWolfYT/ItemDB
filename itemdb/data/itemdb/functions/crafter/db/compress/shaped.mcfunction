@@ -1,0 +1,21 @@
+execute store result score #temp itemdb run data get storage itemdb in[0][0][0]
+execute store result score #temp1 itemdb run data get storage itemdb in[0][0][1]
+execute store result score #temp2 itemdb run data get storage itemdb in[0][0][2]
+execute if score #temp itemdb matches 0 if score #temp1 itemdb matches 0 if score #temp2 itemdb matches 0 run data remove storage itemdb in[0][0]
+execute if score #temp itemdb matches 0 if score #temp1 itemdb matches 0 if score #temp2 itemdb matches 0 run data remove storage itemdb in[1][0]
+execute if score #temp itemdb matches 0 if score #temp1 itemdb matches 0 if score #temp2 itemdb matches 0 run data remove storage itemdb in[2][0]
+execute if data storage itemdb in[0][0] if score #temp itemdb matches 0 if score #temp1 itemdb matches 0 if score #temp2 itemdb matches 0 run function itemdb:crafter/db/compress/shaped
+
+execute store result score #temp itemdb run data get storage itemdb in[0][0][0]
+execute store result score #temp1 itemdb run data get storage itemdb in[0][1][0]
+execute store result score #temp2 itemdb run data get storage itemdb in[0][2][0]
+execute if score #temp itemdb matches 0 if score #temp1 itemdb matches 0 if score #temp2 itemdb matches 0 run data remove storage itemdb in[0][0][0]
+execute if score #temp itemdb matches 0 if score #temp1 itemdb matches 0 if score #temp2 itemdb matches 0 run data remove storage itemdb in[0][1][0]
+execute if score #temp itemdb matches 0 if score #temp1 itemdb matches 0 if score #temp2 itemdb matches 0 run data remove storage itemdb in[0][2][0]
+execute if score #temp itemdb matches 0 if score #temp1 itemdb matches 0 if score #temp2 itemdb matches 0 run data remove storage itemdb in[1][0][0]
+execute if score #temp itemdb matches 0 if score #temp1 itemdb matches 0 if score #temp2 itemdb matches 0 run data remove storage itemdb in[1][1][0]
+execute if score #temp itemdb matches 0 if score #temp1 itemdb matches 0 if score #temp2 itemdb matches 0 run data remove storage itemdb in[1][2][0]
+execute if score #temp itemdb matches 0 if score #temp1 itemdb matches 0 if score #temp2 itemdb matches 0 run data remove storage itemdb in[2][0][0]
+execute if score #temp itemdb matches 0 if score #temp1 itemdb matches 0 if score #temp2 itemdb matches 0 run data remove storage itemdb in[2][1][0]
+execute if score #temp itemdb matches 0 if score #temp1 itemdb matches 0 if score #temp2 itemdb matches 0 run data remove storage itemdb in[2][2][0]
+execute if data storage itemdb in[0][0] if score #temp itemdb matches 0 if score #temp1 itemdb matches 0 if score #temp2 itemdb matches 0 run function itemdb:crafter/db/compress/shaped

@@ -1,0 +1,17 @@
+item replace entity @s enderchest.0 with minecraft:black_stained_glass_pane{has_id:1b,id:0,id_null:1b,display:{Name:'{"text":""}'}}
+item replace entity @s enderchest.4 with minecraft:black_stained_glass_pane{has_id:1b,id:0,id_null:1b,display:{Name:'{"text":""}'}}
+item replace entity @s enderchest.5 with minecraft:black_stained_glass_pane{has_id:1b,id:0,id_null:1b,display:{Name:'{"text":""}'}}
+item replace entity @s enderchest.6 with minecraft:black_stained_glass_pane{has_id:1b,id:0,id_null:1b,display:{Name:'{"text":""}'}}
+item replace entity @s enderchest.7 with minecraft:black_stained_glass_pane{has_id:1b,id:0,id_null:1b,display:{Name:'{"text":""}'}}
+item replace entity @s enderchest.8 with minecraft:black_stained_glass_pane{has_id:1b,id:0,id_null:1b,display:{Name:'{"text":""}'}}
+item replace entity @s enderchest.9 with minecraft:black_stained_glass_pane{has_id:1b,id:0,id_null:1b,display:{Name:'{"text":""}'}}
+item replace entity @s enderchest.13 with minecraft:black_stained_glass_pane{has_id:1b,id:0,id_null:1b,display:{Name:'{"text":""}'}}
+item replace entity @s enderchest.14 with minecraft:black_stained_glass_pane{has_id:1b,id:0,id_null:1b,display:{Name:'{"text":""}'}}
+item replace entity @s enderchest.16 with minecraft:black_stained_glass_pane{has_id:1b,id:0,id_null:1b,display:{Name:'{"text":""}'}}
+item replace entity @s enderchest.17 with minecraft:black_stained_glass_pane{has_id:1b,id:0,id_null:1b,display:{Name:'{"text":""}'},CustomModelData:3}
+item replace entity @s enderchest.18 with minecraft:black_stained_glass_pane{has_id:1b,id:0,id_null:1b,display:{Name:'{"text":""}'}}
+item replace entity @s enderchest.22 with minecraft:black_stained_glass_pane{has_id:1b,id:0,id_null:1b,display:{Name:'{"text":""}'}}
+item replace entity @s enderchest.23 with minecraft:black_stained_glass_pane{has_id:1b,id:0,id_null:1b,display:{Name:'{"text":""}'}}
+item replace entity @s enderchest.24 with minecraft:black_stained_glass_pane{has_id:1b,id:0,id_null:1b,display:{Name:'{"text":""}'}}
+item replace entity @s enderchest.25 with minecraft:black_stained_glass_pane{has_id:1b,id:0,id_null:1b,display:{Name:'{"text":""}'}}
+item replace entity @s enderchest.26 with minecraft:black_stained_glass_pane{has_id:1b,id:0,id_null:1b,display:{Name:'{"text":""}'},CustomModelData:2}

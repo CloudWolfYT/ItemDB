@@ -1,0 +1,44 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{was_cursed:1b}",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "head": {
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:binding_curse"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "minecraft:itemdb"
+    },
+    "ops": [
+      {
+        "source": "temp",
+        "target": "EnderItems",
+        "op": "replace"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_enchantments",
+    "enchantments": {
+      "minecraft:binding_curse": 1
+    },
+    "add": false
+  }
+]

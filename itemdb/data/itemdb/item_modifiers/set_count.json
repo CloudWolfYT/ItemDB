@@ -1,0 +1,14 @@
+[
+  {
+    "function": "minecraft:set_count",
+    "count": {
+      "type": "minecraft:score",
+      "target": {
+        "type": "minecraft:fixed",
+        "name": "in"
+      },
+      "score": "itemdb",
+      "scale": 1
+    }
+  }
+]

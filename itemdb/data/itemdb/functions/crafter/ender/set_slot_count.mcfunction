@@ -1,0 +1,9 @@
+execute if score in1 itemdb matches 1 run item modify entity @s enderchest.1 itemdb:set_count
+execute if score in1 itemdb matches 2 run item modify entity @s enderchest.2 itemdb:set_count
+execute if score in1 itemdb matches 3 run item modify entity @s enderchest.3 itemdb:set_count
+execute if score in1 itemdb matches 4 run item modify entity @s enderchest.10 itemdb:set_count
+execute if score in1 itemdb matches 5 run item modify entity @s enderchest.11 itemdb:set_count
+execute if score in1 itemdb matches 6 run item modify entity @s enderchest.12 itemdb:set_count
+execute if score in1 itemdb matches 7 run item modify entity @s enderchest.19 itemdb:set_count
+execute if score in1 itemdb matches 8 run item modify entity @s enderchest.20 itemdb:set_count
+execute if score in1 itemdb matches 9 run item modify entity @s enderchest.21 itemdb:set_count

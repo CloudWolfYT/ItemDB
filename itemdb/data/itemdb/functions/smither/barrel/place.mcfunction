@@ -1,0 +1,3 @@
+setblock ~ ~ ~ barrel[facing=up]{CustomName:'{"text":"Custom Smither"}'}
+execute align xyz unless entity @e[tag=itemdb,tag=smither,tag=barrel,dx=0] run summon minecraft:glow_item_frame ~0.5 ~0.5 ~0.5 {Facing:1b,Invulnerable:1b,Invisible:1b,Fixed:1b,Tags:["itemdb","frame","barrel"],Item:{id:"minecraft:black_stained_glass_pane",Count:1b,tag:{CustomModelData:6}}}
+execute align xyz unless entity @e[tag=itemdb,tag=smither,tag=barrel,dx=0] run summon marker ~0.5 ~0.5 ~0.5 {Tags:["itemdb","smither","barrel"]}

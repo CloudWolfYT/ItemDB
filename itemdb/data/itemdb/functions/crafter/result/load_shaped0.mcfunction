@@ -1,0 +1,21 @@
+data modify storage itemdb in1[0] append from storage itemdb out[0][0][]
+data modify storage itemdb in1[0] append from storage itemdb out[0][1][]
+data modify storage itemdb in1[0] append from storage itemdb out[0][2][]
+data modify storage itemdb in1[1] append from storage itemdb out[1][0][]
+data modify storage itemdb in1[1] append from storage itemdb out[1][1][]
+data modify storage itemdb in1[1] append from storage itemdb out[1][2][]
+data modify storage itemdb in1[2] append from storage itemdb out[2][0][]
+data modify storage itemdb in1[2] append from storage itemdb out[2][1][]
+data modify storage itemdb in1[2] append from storage itemdb out[2][2][]
+
+data modify storage itemdb in[0] append from storage itemdb hold[0][0][]
+data modify storage itemdb in[0] append from storage itemdb hold[0][1][]
+data modify storage itemdb in[0] append from storage itemdb hold[0][2][]
+data modify storage itemdb in[1] append from storage itemdb hold[1][0][]
+data modify storage itemdb in[1] append from storage itemdb hold[1][1][]
+data modify storage itemdb in[1] append from storage itemdb hold[1][2][]
+data modify storage itemdb in[2] append from storage itemdb hold[2][0][]
+data modify storage itemdb in[2] append from storage itemdb hold[2][1][]
+data modify storage itemdb in[2] append from storage itemdb hold[2][2][]
+
+#say shape0

@@ -12,4 +12,4 @@ execute if score #player_io itemdb matches 1..2 run function itemdb:smither/barr
 item replace block ~ ~ ~ container.25 with air
 execute if score out itemdb matches 0.. run function itemdb:smither/barrel/output
 function itemdb:smither/barrel/mask
-execute if score out itemdb matches -1 if score #hold1 itemdb matches 1 run item replace block ~ ~ ~ container.14 with minecraft:black_stained_glass_pane{has_id:1b,id:0,display:{Name:'{"text":""}'},CustomModelData:7}
+execute if score out itemdb matches -1 if score #hold1 itemdb matches 1 run item replace block ~ ~ ~ container.14 with minecraft:black_stained_glass_pane{itemdb:{has_id:1b,id:0},display:{Name:'{"text":""}'},CustomModelData:7}

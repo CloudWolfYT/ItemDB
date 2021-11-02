@@ -2,7 +2,7 @@ scoreboard players operation in itemdb = @s itemdb_id
 scoreboard players operation in itemdb += #loop itemdb
 
 function itemdb:items/vanilla/get
-execute unless data storage itemdb out run data modify storage itemdb out set value {id:"minecraft:black_stained_glass_pane",Count:1b,tag:{has_id:1b,id:0,display:{Name:'{"text":""}'}}}
+execute unless data storage itemdb out run data modify storage itemdb out set value {id:"minecraft:black_stained_glass_pane",Count:1b,tag:{itemdb:{has_id:1b,id:0},display:{Name:'{"text":""}'}}}
 
 #tellraw @a {"score":{"objective":"itemdb","name":"in"}}
 scoreboard players operation #temp itemdb = #loop itemdb

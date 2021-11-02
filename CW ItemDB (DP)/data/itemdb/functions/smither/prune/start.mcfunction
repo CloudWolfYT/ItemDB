@@ -1,5 +1,5 @@
 data modify storage itemdb temp set from storage itemdb container
-data remove storage itemdb temp[{tag:{has_id:1b,id:0}}]
+data remove storage itemdb temp[{tag:{itemdb:{has_id:1b,id:0}}}]
 data remove storage itemdb temp[{tag:{crafted_item:1b}}]
 scoreboard players set #bool1 itemdb 0
 execute store result score #items itemdb run data get storage itemdb temp

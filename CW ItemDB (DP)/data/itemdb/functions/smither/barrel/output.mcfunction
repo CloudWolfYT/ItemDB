@@ -1,6 +1,6 @@
 scoreboard players operation in itemdb = out itemdb
 function itemdb:smither/db/get
-tellraw @a {"score":{"objective":"itemdb","name":"out"}}
+#tellraw @a {"score":{"objective":"itemdb","name":"out"}}
 execute store result score in itemdb run data get storage itemdb out[2]
 function itemdb:items/db/get
 execute if score in itemdb matches ..-1 run function itemdb:items/vanilla/get_neg

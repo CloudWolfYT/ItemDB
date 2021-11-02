@@ -7,7 +7,7 @@ data modify storage itemdb hold set from storage itemdb out
 execute store result score in itemdb run data get storage itemdb hold[0]
 function itemdb:items/db/get
 execute if score in itemdb matches ..-1 run function itemdb:items/vanilla/get_neg
-execute unless data storage itemdb out run data modify storage itemdb out set value {Count:1b,id:"minecraft:air",tag:{has_id:1b,id:0,display:{Name:'{"text":""}'}}}
+execute unless data storage itemdb out run data modify storage itemdb out set value {Count:1b,id:"minecraft:air",tag:{itemdb:{has_id:1b,id:0},display:{Name:'{"text":""}'}}}
 data modify storage itemdb out.Slot set value 2b
 execute if score in itemdb matches 0 run data modify storage itemdb out.id set value "minecraft:air"
 execute if score #slot itemdb = .smiths itemdb run data modify storage itemdb out.id set value "minecraft:lime_stained_glass_pane"
@@ -18,7 +18,7 @@ data modify block ~ ~ ~ Items insert -1 from storage itemdb out
 execute store result score in itemdb run data get storage itemdb hold[1]
 function itemdb:items/db/get
 execute if score in itemdb matches ..-1 run function itemdb:items/vanilla/get_neg
-execute unless data storage itemdb out run data modify storage itemdb out set value {Count:1b,id:"minecraft:air",tag:{has_id:1b,id:0,display:{Name:'{"text":""}'}}}
+execute unless data storage itemdb out run data modify storage itemdb out set value {Count:1b,id:"minecraft:air",tag:{itemdb:{has_id:1b,id:0},display:{Name:'{"text":""}'}}}
 data modify storage itemdb out.Slot set value 11b
 execute if score in itemdb matches 0 run data modify storage itemdb out.id set value "minecraft:air"
 execute if score #slot itemdb = .smiths itemdb run data modify storage itemdb out.id set value "minecraft:lime_stained_glass_pane"
@@ -29,7 +29,7 @@ data modify block ~ ~ ~ Items insert -1 from storage itemdb out
 execute store result score in itemdb run data get storage itemdb hold[2]
 function itemdb:items/db/get
 execute if score in itemdb matches ..-1 run function itemdb:items/vanilla/get_neg
-execute unless data storage itemdb out run data modify storage itemdb out set value {Count:1b,id:"minecraft:air",tag:{has_id:1b,id:0,display:{Name:'{"text":""}'}}}
+execute unless data storage itemdb out run data modify storage itemdb out set value {Count:1b,id:"minecraft:air",tag:{itemdb:{has_id:1b,id:0},display:{Name:'{"text":""}'}}}
 data modify storage itemdb out.Slot set value 20b
 execute if score in itemdb matches 0 run data modify storage itemdb out.id set value "minecraft:air"
 execute if score #slot itemdb = .smiths itemdb run data modify storage itemdb out.id set value "minecraft:lime_stained_glass_pane"
@@ -45,7 +45,7 @@ data modify storage itemdb hold set from storage itemdb out
 execute store result score in itemdb run data get storage itemdb hold[0]
 function itemdb:items/db/get
 execute if score in itemdb matches ..-1 run function itemdb:items/vanilla/get_neg
-execute unless data storage itemdb out run data modify storage itemdb out set value {Count:1b,id:"minecraft:air",tag:{has_id:1b,id:0,display:{Name:'{"text":""}'}}}
+execute unless data storage itemdb out run data modify storage itemdb out set value {Count:1b,id:"minecraft:air",tag:{itemdb:{has_id:1b,id:0},display:{Name:'{"text":""}'}}}
 data modify storage itemdb out.Slot set value 4b
 execute if score in itemdb matches 0 run data modify storage itemdb out.id set value "minecraft:air"
 execute if score #slot itemdb = .smiths itemdb run data modify storage itemdb out.id set value "minecraft:lime_stained_glass_pane"
@@ -56,7 +56,7 @@ data modify block ~ ~ ~ Items insert -1 from storage itemdb out
 execute store result score in itemdb run data get storage itemdb hold[1]
 function itemdb:items/db/get
 execute if score in itemdb matches ..-1 run function itemdb:items/vanilla/get_neg
-execute unless data storage itemdb out run data modify storage itemdb out set value {Count:1b,id:"minecraft:air",tag:{has_id:1b,id:0,display:{Name:'{"text":""}'}}}
+execute unless data storage itemdb out run data modify storage itemdb out set value {Count:1b,id:"minecraft:air",tag:{itemdb:{has_id:1b,id:0},display:{Name:'{"text":""}'}}}
 data modify storage itemdb out.Slot set value 13b
 execute if score in itemdb matches 0 run data modify storage itemdb out.id set value "minecraft:air"
 execute if score #slot itemdb = .smiths itemdb run data modify storage itemdb out.id set value "minecraft:lime_stained_glass_pane"
@@ -67,7 +67,7 @@ data modify block ~ ~ ~ Items insert -1 from storage itemdb out
 execute store result score in itemdb run data get storage itemdb hold[2]
 function itemdb:items/db/get
 execute if score in itemdb matches ..-1 run function itemdb:items/vanilla/get_neg
-execute unless data storage itemdb out run data modify storage itemdb out set value {Count:1b,id:"minecraft:air",tag:{has_id:1b,id:0,display:{Name:'{"text":""}'}}}
+execute unless data storage itemdb out run data modify storage itemdb out set value {Count:1b,id:"minecraft:air",tag:{itemdb:{has_id:1b,id:0},display:{Name:'{"text":""}'}}}
 data modify storage itemdb out.Slot set value 22b
 execute if score in itemdb matches 0 run data modify storage itemdb out.id set value "minecraft:air"
 execute if score #slot itemdb = .smiths itemdb run data modify storage itemdb out.id set value "minecraft:lime_stained_glass_pane"
@@ -84,7 +84,7 @@ data modify storage itemdb hold set from storage itemdb out
 execute store result score in itemdb run data get storage itemdb hold[0]
 function itemdb:items/db/get
 execute if score in itemdb matches ..-1 run function itemdb:items/vanilla/get_neg
-execute unless data storage itemdb out run data modify storage itemdb out set value {Count:1b,id:"minecraft:air",tag:{has_id:1b,id:0,display:{Name:'{"text":""}'}}}
+execute unless data storage itemdb out run data modify storage itemdb out set value {Count:1b,id:"minecraft:air",tag:{itemdb:{has_id:1b,id:0},display:{Name:'{"text":""}'}}}
 data modify storage itemdb out.Slot set value 6b
 execute if score in itemdb matches 0 run data modify storage itemdb out.id set value "minecraft:air"
 execute if score #slot itemdb = .smiths itemdb run data modify storage itemdb out.id set value "minecraft:lime_stained_glass_pane"
@@ -95,7 +95,7 @@ data modify block ~ ~ ~ Items insert -1 from storage itemdb out
 execute store result score in itemdb run data get storage itemdb hold[1]
 function itemdb:items/db/get
 execute if score in itemdb matches ..-1 run function itemdb:items/vanilla/get_neg
-execute unless data storage itemdb out run data modify storage itemdb out set value {Count:1b,id:"minecraft:air",tag:{has_id:1b,id:0,display:{Name:'{"text":""}'}}}
+execute unless data storage itemdb out run data modify storage itemdb out set value {Count:1b,id:"minecraft:air",tag:{itemdb:{has_id:1b,id:0},display:{Name:'{"text":""}'}}}
 data modify storage itemdb out.Slot set value 15b
 execute if score in itemdb matches 0 run data modify storage itemdb out.id set value "minecraft:air"
 execute if score #slot itemdb = .smiths itemdb run data modify storage itemdb out.id set value "minecraft:lime_stained_glass_pane"
@@ -106,7 +106,7 @@ data modify block ~ ~ ~ Items insert -1 from storage itemdb out
 execute store result score in itemdb run data get storage itemdb hold[2]
 function itemdb:items/db/get
 execute if score in itemdb matches ..-1 run function itemdb:items/vanilla/get_neg
-execute unless data storage itemdb out run data modify storage itemdb out set value {Count:1b,id:"minecraft:stick",tag:{has_id:1b,id:0,display:{Name:'{"text":""}'}}}
+execute unless data storage itemdb out run data modify storage itemdb out set value {Count:1b,id:"minecraft:stick",tag:{itemdb:{has_id:1b,id:0},display:{Name:'{"text":""}'}}}
 data modify storage itemdb out.Slot set value 24b
 execute if score in itemdb matches 0 run data modify storage itemdb out.id set value "minecraft:air"
 execute if score #slot itemdb = .smiths itemdb run data modify storage itemdb out.id set value "minecraft:lime_stained_glass_pane"

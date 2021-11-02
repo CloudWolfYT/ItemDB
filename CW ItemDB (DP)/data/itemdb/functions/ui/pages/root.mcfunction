@@ -1,4 +1,4 @@
-clear @p[tag=this] #itemdb:all_items{has_id:1b,id:0}
+clear @p[tag=this] #itemdb:all_items{itemdb:{has_id:1b,id:0}}
 scoreboard players set #bool itemdb 0
 scoreboard players add @s itemdb_page 0
 execute unless data storage itemdb temp[{Slot:17b}] run function itemdb:ui/pages/search

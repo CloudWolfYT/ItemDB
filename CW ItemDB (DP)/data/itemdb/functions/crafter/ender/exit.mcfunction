@@ -1,5 +1,5 @@
 data modify storage itemdb temp set from entity @s EnderItems
-data remove storage itemdb temp[{tag:{id:0}}]
+data remove storage itemdb temp[{tag:{itemdb:{id:0}}}]
 data remove storage itemdb temp[{tag:{crafted_item:1b}}]
 data remove block 69 1 69 Items
 data modify block 69 1 69 Items set from storage itemdb temp

@@ -5,15 +5,15 @@ data modify storage itemdb in[3][0] set from storage itemdb out[3][0]
 execute unless data storage itemdb temp[{Slot:25b}] run function itemdb:ui/pages/recipes/types
 execute store result score #shaped itemdb run data get storage itemdb in[3][0]
 
-data modify storage itemdb in[0][0][0] set from storage itemdb temp[{Slot:2b}].tag.id
-data modify storage itemdb in[0][0][1] set from storage itemdb temp[{Slot:3b}].tag.id
-data modify storage itemdb in[0][0][2] set from storage itemdb temp[{Slot:4b}].tag.id
-data modify storage itemdb in[0][1][0] set from storage itemdb temp[{Slot:11b}].tag.id
-data modify storage itemdb in[0][1][1] set from storage itemdb temp[{Slot:12b}].tag.id
-data modify storage itemdb in[0][1][2] set from storage itemdb temp[{Slot:13b}].tag.id
-data modify storage itemdb in[0][2][0] set from storage itemdb temp[{Slot:20b}].tag.id
-data modify storage itemdb in[0][2][1] set from storage itemdb temp[{Slot:21b}].tag.id
-data modify storage itemdb in[0][2][2] set from storage itemdb temp[{Slot:22b}].tag.id
+data modify storage itemdb in[0][0][0] set from storage itemdb temp[{Slot:2b}].tag.itemdb.id
+data modify storage itemdb in[0][0][1] set from storage itemdb temp[{Slot:3b}].tag.itemdb.id
+data modify storage itemdb in[0][0][2] set from storage itemdb temp[{Slot:4b}].tag.itemdb.id
+data modify storage itemdb in[0][1][0] set from storage itemdb temp[{Slot:11b}].tag.itemdb.id
+data modify storage itemdb in[0][1][1] set from storage itemdb temp[{Slot:12b}].tag.itemdb.id
+data modify storage itemdb in[0][1][2] set from storage itemdb temp[{Slot:13b}].tag.itemdb.id
+data modify storage itemdb in[0][2][0] set from storage itemdb temp[{Slot:20b}].tag.itemdb.id
+data modify storage itemdb in[0][2][1] set from storage itemdb temp[{Slot:21b}].tag.itemdb.id
+data modify storage itemdb in[0][2][2] set from storage itemdb temp[{Slot:22b}].tag.itemdb.id
 
 execute store result storage itemdb in[1][0][0] int 1 run data get storage itemdb temp[{Slot:2b}].Count
 execute store result storage itemdb in[1][0][1] int 1 run data get storage itemdb temp[{Slot:3b}].Count
@@ -25,7 +25,7 @@ execute store result storage itemdb in[1][2][0] int 1 run data get storage itemd
 execute store result storage itemdb in[1][2][1] int 1 run data get storage itemdb temp[{Slot:21b}].Count
 execute store result storage itemdb in[1][2][2] int 1 run data get storage itemdb temp[{Slot:22b}].Count
 
-data modify storage itemdb in[2][0] set from storage itemdb temp[{Slot:15b}].tag.id
+data modify storage itemdb in[2][0] set from storage itemdb temp[{Slot:15b}].tag.itemdb.id
 execute store result storage itemdb in[2][1] int 1 run data get storage itemdb temp[{Slot:15b}].Count
 
 scoreboard players operation in itemdb = @s itemdb_id

@@ -11,4 +11,4 @@ tellraw @s {"text":""}
 tellraw @s {"text":"  Help �","clickEvent":{"action":"run_command","value":"/function itemdb:menu/help"},"color":"#ede59d"}
 tellraw @s {"text":"  Uninstall ⎚","clickEvent":{"action":"run_command","value":"/function itemdb:menu/uninstall"},"color":"#ff8c8a"}
 
-#⎙⎆⎚�
+#say :dagger: :bow_and_arrow: :trident: :test_tube: :alembic: :fishing_pole_and_fish: :shield: :axe: :pick: :skull_crossbones: :peace: :yin_yang: :spades: Ω ♤ :clubs: ♧ :heart: :hearts: ♡ :diamonds: ♢ ★ ☆ :comet: ☽ :sunny: :cloud: :umbrella2: :snowman2: ◎ :relaxed: ☻ :frowning2: ☜ ☞ ♪ ♩ ♫ ♬ :scissors: :envelope: ∞ :male_sign: :female_sign: :heart: :tm: :registered: :copyright: ✘ ■ □ ▲ △ ▼ ▽ ◆ ◇ ○ ◎ ● Δ ʊ ღ ₪ ½ ⅓ ⅔ ¼ ¾ ⅛ ⅜ ⅝ ⅞ ∧ ∨ ∩ ⊂ ⊃  ⊥ ∀ Ξ Γ ɐ ə ɘ ε β ɟ ɥ ɯ ɔ и  ɹ ʁ я ʌ ʍ λ ч ∞ Σ Π Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ :m: Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ ⓐ ⓑ ⓒ ⓓ ⓔ ⓕ ⓖ ⓗ ⓘ ⓙ ⓚ ⓛ ⓜ ⓝ ⓞ ⓟ ⓠ ⓡ ⓢ ⓣ ⓤ ⓥ ⓦ ⓧ ⓨ ⓩ ▓ □〓≡ ╝╚╔╗╬ ╓ ╩┌ ┐└ ┘ ↑ ↓ → ← :left_right_arrow: ▀▐ ░ ▒▬ :diamonds: ◘ → ✎ :heart_exclamation: ✚ :heavy_check_mark: :heavy_multiplication_x: ▁ ▂ ▃ ▄ ▅ ▆ ▇ █ ⊻ ⊼ ⊽ ⋃ ⌀ ⌂ ⎙⎆⎚☑︎☒�:coffee:⛃

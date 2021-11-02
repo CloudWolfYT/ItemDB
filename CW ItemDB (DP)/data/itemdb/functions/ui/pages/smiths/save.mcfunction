@@ -1,14 +1,14 @@
-data remove storage itemdb temp[{tag:{id:0}}]
+data remove storage itemdb temp[{tag:{itemdb:{id:0}}}]
 
-execute store result score #a itemdb run data get storage itemdb temp[{Slot:2b}].tag.id
-execute store result score #b itemdb run data get storage itemdb temp[{Slot:11b}].tag.id
-execute store result score #c itemdb run data get storage itemdb temp[{Slot:20b}].tag.id
-execute store result score #d itemdb run data get storage itemdb temp[{Slot:4b}].tag.id
-execute store result score #e itemdb run data get storage itemdb temp[{Slot:13b}].tag.id
-execute store result score #f itemdb run data get storage itemdb temp[{Slot:22b}].tag.id
-execute store result score #g itemdb run data get storage itemdb temp[{Slot:6b}].tag.id
-execute store result score #h itemdb run data get storage itemdb temp[{Slot:15b}].tag.id
-execute store result score #i itemdb run data get storage itemdb temp[{Slot:24b}].tag.id
+execute store result score #a itemdb run data get storage itemdb temp[{Slot:2b}].tag.itemdb.id
+execute store result score #b itemdb run data get storage itemdb temp[{Slot:11b}].tag.itemdb.id
+execute store result score #c itemdb run data get storage itemdb temp[{Slot:20b}].tag.itemdb.id
+execute store result score #d itemdb run data get storage itemdb temp[{Slot:4b}].tag.itemdb.id
+execute store result score #e itemdb run data get storage itemdb temp[{Slot:13b}].tag.itemdb.id
+execute store result score #f itemdb run data get storage itemdb temp[{Slot:22b}].tag.itemdb.id
+execute store result score #g itemdb run data get storage itemdb temp[{Slot:6b}].tag.itemdb.id
+execute store result score #h itemdb run data get storage itemdb temp[{Slot:15b}].tag.itemdb.id
+execute store result score #i itemdb run data get storage itemdb temp[{Slot:24b}].tag.itemdb.id
 
 data modify storage itemdb in set value [0,0,0]
 execute store result storage itemdb in[0] int 1 run scoreboard players get #a itemdb

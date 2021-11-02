@@ -1,5 +1,5 @@
 data modify storage itemdb temp set from entity @s EnderItems
-execute unless data entity @s Inventory[{Slot:103b}] run item replace entity @s armor.head with stone_button{ender_placeholder:1b,has_id:1b}
+execute unless data entity @s Inventory[{Slot:103b}] run item replace entity @s armor.head with stone_button{ender_placeholder:1b,itemdb:{has_id:1b}}
 item modify entity @s armor.head itemdb:lock_ender
 tag @s add locked_ender
 

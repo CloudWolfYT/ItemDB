@@ -1,4 +1,4 @@
-execute unless data storage itemdb temp[-1].tag.has_id run function itemdb:items/vanilla/player/load
+execute unless data storage itemdb temp[-1].tag.itemdb.has_id run function itemdb:items/vanilla/player/load
 
 scoreboard players remove #loop itemdb 1
 data remove storage itemdb temp[-1]

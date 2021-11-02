@@ -1,6 +1,6 @@
 scoreboard players set @s itemdb_v_vanilla 0
 data modify storage itemdb temp set from entity @s Inventory
-data remove storage itemdb temp[{tag:{has_id:1b}}]
+data remove storage itemdb temp[{tag:{itemdb:{has_id:1b}}}]
 
 data remove storage itemdb in
 execute store result score #loop itemdb run data get storage itemdb temp

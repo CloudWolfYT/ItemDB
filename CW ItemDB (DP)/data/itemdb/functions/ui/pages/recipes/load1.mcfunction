@@ -75,7 +75,7 @@ data modify storage itemdb out.Slot set value 22b
 function itemdb:ui/pages/recipes/load_one
 
 execute store result score in itemdb run data get storage itemdb temp1[3][0]
-execute if score in itemdb matches 0 run data modify storage itemdb out set value {id:"minecraft:bricks",Count:1b,tag:{has_id:1b,id:0,display:{Name:'{"text":"Shaped Crafting","italic":false}'}}}
-execute if score in itemdb matches 1 run data modify storage itemdb out set value {id:"minecraft:water_bucket",Count:1b,tag:{has_id:1b,id:0,display:{Name:'{"text":"Shapeless Crafting","italic":false}'}}}
+execute if score in itemdb matches 0 run data modify storage itemdb out set value {id:"minecraft:bricks",Count:1b,tag:{itemdb:{has_id:1b,id:0},display:{Name:'{"text":"Shaped Crafting","italic":false}'}}}
+execute if score in itemdb matches 1 run data modify storage itemdb out set value {id:"minecraft:water_bucket",Count:1b,tag:{itemdb:{has_id:1b,id:0},display:{Name:'{"text":"Shapeless Crafting","italic":false}'}}}
 data modify storage itemdb out.Slot set value 25b
 function itemdb:ui/pages/recipes/load_one

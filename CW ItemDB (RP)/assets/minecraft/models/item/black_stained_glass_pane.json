@@ -1,0 +1,15 @@
+{
+        "parent": "item/generated",
+        "textures": {
+                "layer0": "minecraft:block/black_stained_glass"
+	},
+	"overrides": [
+        {"predicate": {"custom_model_data": 1}, "model": "item/ui/crafting_table"},
+        {"predicate": {"custom_model_data": 2}, "model": "item/ui/crafting_ui"},
+        {"predicate": {"custom_model_data": 3}, "model": "item/ui/crafting_name"},
+        {"predicate": {"custom_model_data": 4}, "model": "item/ui/smither_ui"},
+        {"predicate": {"custom_model_data": 5}, "model": "item/ui/smither_item"},
+        {"predicate": {"custom_model_data": 6}, "model": "item/ui/smither"},
+        {"predicate": {"custom_model_data": 7}, "model": "item/ui/smither_arrow"}
+    ]
+}

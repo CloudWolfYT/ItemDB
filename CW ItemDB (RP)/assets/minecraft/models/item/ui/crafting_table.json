@@ -1,0 +1,30 @@
+{
+	"textures": {
+		"texture": "custom/ui/crafter_top",
+		"texture1": "custom/ui/crafter_side",
+		"texture2": "custom/ui/crafter_front",
+		"texture3": "custom/ui/crafter_bottom"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box2",
+			"from": [ -0.004, 0, 0 ],
+			"to": [ 15.996, 16, 16 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 15.99603, 16 ], "texture": "#texture3" },
+				"up": { "uv": [ 0, 0, 15.99603, 16 ], "texture": "#texture" },
+				"north": { "uv": [ 0.003968239, 0, 16, 16 ], "texture": "#texture1" },
+				"south": { "uv": [ 0, 0, 15.99603, 16 ], "texture": "#texture2" },
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture1" },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture2" }
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation":  [ 90, 180, 180 ],
+			"scale": [2.005, 2.005, 2.005],
+			"translation": [0, 0, -16]
+		}
+	}
+}

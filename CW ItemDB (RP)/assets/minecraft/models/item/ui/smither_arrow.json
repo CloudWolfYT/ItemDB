@@ -1,0 +1,27 @@
+{
+	"textures": {
+		"texture": "custom/ui/smither_arrow"
+	},
+	"gui_light":"front",
+	"elements": [ 	 
+		{
+			"__comment": "PlaneX1",
+			"from": [ 0, 0, 0 ],
+			"to": [ 22, 22, 22 ],
+			"faces": {
+				"west": { "uv": [ 0, 0, 22, 22 ], "texture": "#texture" },
+				"east": { "uv": [ 0, 0, 22, 22 ], "texture": "#texture" }
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation":  [ 0, -90, 0 ],
+			"translation":  [ 17.15, -26.2, 2 ],
+			"scale":  [ 0.0001, 1.375, 1.375 ]
+		},
+		"ground" :{
+			"scale": [0,0,0]
+		}
+	}
+}

@@ -1,3 +1,5 @@
+say matched0
+
 execute store result score #temp itemdb run data get storage itemdb temp[-1][0][1]
 execute store result score #temp1 itemdb run data get storage itemdb temp[-1][0][2]
 execute store result score #temp2 itemdb run data get storage itemdb temp[-1][0][3]

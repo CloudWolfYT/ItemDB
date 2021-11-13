@@ -1,3 +1,4 @@
+
 scoreboard players set #btag1 itemdb 0
 execute store result score #tags itemdb run data get storage itemdb temp[-1][0][1]
 data modify storage itemdb tags set from storage itemdb temp[-1][0][1]

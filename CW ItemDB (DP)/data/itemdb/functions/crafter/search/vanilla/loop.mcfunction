@@ -16,11 +16,10 @@ execute if score #shapeless itemdb matches 0 run function itemdb:crafter/search/
 execute if score out itemdb matches -1 if score #btag itemdb matches 1 if score #shapeless itemdb matches 0 run function itemdb:crafter/search/vanilla/mirrored/matched0
 
 data modify storage itemdb tags set from storage itemdb temp[-1][0][0]
-scoreboard players operation #tags itemdb = #tags_old itemdb
+execute store result score #tags itemdb run data get storage itemdb tags
 scoreboard players operation in itemdb = #ia itemdb
 scoreboard players set #btag itemdb 0
 execute if score #shapeless itemdb matches 1 run function itemdb:crafter/search/vanilla/is_tag
-execute if score #btag itemdb matches 1 run say match
 execute if score out itemdb matches -1 if score #btag itemdb matches 1 if score #shapeless itemdb matches 1 run function itemdb:crafter/search/vanilla/shapeless/matched0
 
 data remove storage itemdb temp[-1]

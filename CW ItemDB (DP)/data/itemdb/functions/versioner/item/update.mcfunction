@@ -6,4 +6,3 @@ execute unless score in itemdb = #temp itemdb run data modify storage itemdb in 
 execute unless score in itemdb = #temp itemdb run data modify storage itemdb in.Count set from storage itemdb temp.Count
 
 data modify entity @s Item set from storage itemdb in
-#say update

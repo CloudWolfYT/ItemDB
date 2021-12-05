@@ -16,9 +16,9 @@ execute if score out1 itemdb matches 5 run function itemdb:crafter/result/load_s
 #tellraw @a {"nbt":"in","storage":"itemdb"}
 # get results #
 #tellraw @a {"score":{"objective":"itemdb","name":"out1"}}
-#scoreboard players operation in itemdb = out itemdb
-#execute if score out2 itemdb matches 0 run function itemdb:crafter/db/get
-#execute if score out2 itemdb matches 1 run function itemdb:crafter/db/vanilla/get
+scoreboard players operation in itemdb = out itemdb
+execute if score out2 itemdb matches 0 run function itemdb:crafter/db/get
+execute if score out2 itemdb matches 1 run function itemdb:crafter/db/vanilla/get
 #tellraw @a {"nbt":"out","storage":"itemdb"}
 
 execute store result score in itemdb run data get storage itemdb out[2][0]
